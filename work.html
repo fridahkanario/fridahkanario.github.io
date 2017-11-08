@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Personal Website</title>
+    <meta name="description" content="website description" />
+    <meta name="keywords" content="website keywords, website keywords" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- modernizr enables HTML5 elements and feature detects -->
+    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="logo">
+                <div id="logo_text">
+                    <!-- class="logo_colour", allows you to change the colour of the text -->
+                    <h1><a href="index.html">Fridah<span class="logo_colour">_Kanario</span></a></h1>
+                    <h2>Personal Website</h2>
+                </div>
+                <p style="float: right;"><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+            </div>
+            <nav>
+                <ul class="sf-menu" id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="selected"><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">My Portfolio</a></li>
+
+
+
+                    <li><a href="#">More About Me</a>
+                        <ul>
+                                <li><a href="work.html">Work Experience</a>
+                                <li><a href="#">Education</a>
+                                    <ul>
+                                    <li><a href="undergraduate.html">Undergraduate</a></li>
+                                    <li><a href="highschool.html">High school</a></li>
+                                    <li><a href="primary.html">Primary school</a></li>
+                                </ul>
+                            <li><a href="Achievements.html">Achievements</a></li>
+                            <li><a href="hobbies.html">Hobbies/Intrest</a></li>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a href="contact.php">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="site_content">
+            <div id="sidebar_container">
+                <div class="gallery">
+                    <ul class="images">
+                        <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
+                        <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li>
+                        <li><img width="450" height="450" src="images/3.jpg" alt="photo_three" /></li>
+                        <li><img width="450" height="450" src="images/4.jpg" alt="photo_four" /></li>
+                        <li><img width="450" height="450" src="images/5.jpg" alt="photo_five" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <h1>Work Experience</h1>
+                <p>2017 May – 2017 August: Intern at Safaricom Limited.
+Duties and responsibilities
+-	Carrying out day to day operations of the office.
+-	Approving and analyzing change requirements and requests for Safaricom Limited.
+-	Undertaking various projects aimed at automation of services.
+-	Monitoring of networks.
+</p>
+<p>
+2015 May – 2015 August: Data entry clerk at Kenya School of Government, ICT department.
+Duties and responsibilities
+-	Facilitating data entry for various research projects across the country.
+-	Preparation of reports for different research projects
+</p>
+
+
+            </div>
+        </div>
+        <footer>
+            <p>Designed by <a href="contact.php">FridahKanario</a></p>
+        </footer>
+    </div>
+    <!-- javascript at the bottom for fast page loading -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+    <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+    <script type="text/javascript" src="js/image_fade.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('ul.sf-menu').sooperfish();
+        });
+    </script>
+</body>
+</html>
