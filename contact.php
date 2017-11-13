@@ -81,7 +81,7 @@
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
             $mail->setFrom($user_email, $name);
-            $mail->addAddress('fridahmmwika@gmail.com','');
+            $mail->addAddress('enter email address,'');
              //end of SMTP configuration
             $mail->addCC('');
 
